@@ -27,12 +27,12 @@ class CategoryBar extends React.Component {
     render() {
         return (
             <div className="categories">
-                {this.state.categories.map(category => {
+                {/*this.state.categories.map(category => {
                     return category.id.toString() !== this.props.selectedCategory ? 
                     <button className="category" onClick={this.handleClick} name={category.name} id={category.id} key={category.id}>{category.name}</button>
                     :
                     <button className="category category-active" onClick={this.handleClick} name={category.name} id={category.id} key={category.id}>{category.name}</button>
-                    })}
+                    })*/}
             </div>
         )
     }
