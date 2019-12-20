@@ -16,7 +16,7 @@ class AddInventory extends React.Component {
             headers: {
                 Authorization: localStorage.getItem("token"),
             }}
-        axios.get(`https://pet-pantry-backend.herokuapp.com/api/items/api/categories`, options)
+        axios.get(`https://pet-pantry-backend.herokuapp.com/api/categories`, options)
         .then(resp => {this.setState({categories:resp.data.categories});})
         .catch(err => {alert("Unable to obtain categories from back-end."); console.log(err)})
     }
