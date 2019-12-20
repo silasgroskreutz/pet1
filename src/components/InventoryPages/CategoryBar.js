@@ -17,7 +17,7 @@ class CategoryBar extends React.Component {
           axios.get(`https://pet-pantry-backend.herokuapp.com/api/categories`, options)
           .then(resp => {
               let allCategories = resp.data.categories;
-              allCategories.push({id: -1, name: "show all"}) 
+              //allCategories.push({id: -1, name: "show all"}) 
               this.setState({categories:allCategories});})
           .catch(err => {alert("Unable to obtain categories from back-end."); console.log(err)})
     }
