@@ -130,7 +130,8 @@ class Login extends React.Component {
                   onClick={this.showRegister}
                 >
                   {' '}
-                  TESTERS - PLEASE CLICK NEW USER BELOW
+                  TESTERS - PLEASE ENTER ANY INFO TO LOGIN Input verification
+                  will occur with MVP
                   <br /> <br /> New User? Register here.
                 </LinkButton>
               </LoginForm>
