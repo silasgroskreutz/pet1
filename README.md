@@ -2,6 +2,8 @@ Hello Testers.
 As of 1/7/2020, authenication is disabled. Please user 'NEW USER' link and enter any info for front end viewing.
 Also, the database is not fully implemented, so searching by item is not available.
 
+Link to app: https://pet1.now.sh/
+
 THANK YOU FOR YOUR TIME.
 
 PROJECT PURPOSE:
